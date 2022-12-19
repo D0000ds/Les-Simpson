@@ -54,6 +54,16 @@ nav li{
     display: inline;
 }
 
+.side{
+    display: flex;
+    justify-content: center;
+}
+
+.para {
+    margin-left: 3%;
+
+}
+
 h1{
     color: yellow;
     margin-left: 5%;
@@ -65,14 +75,10 @@ article p{
     margin-right: 30%;
 }
 .secondcontent {
-    display: flex;
     background-color: dodgerblue;
     text-align: center;
-    margin-left: 75%;
-    margin-right: 2%;
-    height: 410px;
-    overflow: hidden;
-    justify-content: flex-start;
+    margin-top: 4%;
+    margin-right: 3%;
 }
 
 .secondcontent figure img{
@@ -84,17 +90,20 @@ article p{
 }
 
 .ImgMovie {
-    position: absolute;
-    float: left;
-    top: 70%;
-    right: 40%;
+    display: flex;
+    margin-left: 6%;
+    box-sizing: content-box;
+    width: 50%;
+    height: 202px;
+    overflow: hidden;
+    
 }
 
-.ImgJeu{
+.ImgMovie img{
     border: 2px black solid;
+    margin: 10px;
     width: 250px;
     height: 230px;
-    overflow: hidden;
 }
 
 footer p{
