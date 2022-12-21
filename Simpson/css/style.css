@@ -1,0 +1,221 @@
+.content{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media screen and(max-width: 896px) {
+    .content{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+  }
+
+body{
+    background-color: yellow;
+    margin: 0;
+}
+
+.blue{
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+}
+
+.blue h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ImgSimp{
+    display: block;
+    margin: 0px;
+    height: 300px;
+    overflow: hidden;
+    background-color: aqua;
+    box-sizing: content-box;
+}
+
+.ImgSimp img{
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 896px){
+    .ImgSimp{
+        height: 75px;
+    }
+}
+
+nav ul{
+    display: flex;
+    border-bottom: 5px white dotted;
+    background-color: dodgerblue;
+    height: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0;
+}
+
+nav li{
+    background-color: dodgerblue;
+    color: white;
+    list-style-type: none;
+    display: inline;
+    font-size: 75%;
+}
+@media (max-width: 896px){
+    nav ul{
+        height: 40px;
+    }
+}
+
+@media (max-width: 896px){
+    nav ul li{
+        font-size: 8px;
+
+    }
+}
+
+.side{
+    display: flex;
+    justify-content: center;
+}
+
+.para {
+    margin-left: 3%;
+
+}
+
+h1{
+    color: yellow;
+    margin-left: 5%;
+}
+
+article p{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 30%;
+}
+.secondcontent {
+    background-color: dodgerblue;
+    text-align: center;
+    margin-top: 4%;
+    margin-right: 3%;
+}
+
+.secondcontent figure img{
+    width: 200px;
+    height: 230px;
+    border: 1px white solid;
+    object-fit: cover;
+    overflow: hidden;
+}
+@media (max-width: 896px){
+    .side{
+        width: 100%;
+        height: 60%;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 896px){
+    .para{
+        font-size: 17px;
+        text-align: justify;
+
+    }
+}
+
+@media (max-width: 896px){
+    .secondcontent{
+        width: 80%;
+        height: 70%;
+    }
+}
+
+@media (max-width: 896px){
+    .secondcontent figure img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.ImgMovie {
+    display: flex;
+    margin-left: 6%;
+    box-sizing: content-box;
+    width: 50%;
+    height: 202px;
+    overflow: hidden;
+    
+}
+
+.ImgMovie img{
+    border: 2px black solid;
+    margin: 10px;
+    width: 250px;
+    height: 230px;
+}
+
+@media (max-width: 699px){
+    .ImgMovie{
+        width: 225px;
+        height: 115px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 699px){
+    .ImgMovie img{
+        margin: 5px;
+        width: 60px;
+        height: 130px;
+    }
+}
+
+@media (min-width: 700px){
+    .ImgMovie{
+        width: 500px;
+        height: 200px;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 700px){
+    .ImgMovie img{
+        margin: 5px;
+        width: 120px;
+        height: 240px;
+    }
+}
+
+@media (min-width: 1440px){
+    .ImgMovie{
+        width: 50%;
+        height: 202px;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 1440px){
+    .ImgMovie img{
+        margin: 10px;
+        width: 250px;
+        height: 230px;
+    }
+}
+
+footer p{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
